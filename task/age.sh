@@ -4,6 +4,8 @@ if [ $a -lt 13 ];then
 	echo "child"
 elif [ $a -ge 13 -a $a -le 19 ];then
 	echo "teenager"
-else 
+elif [ $a -ge 20 -a $a -lt 60 ];then
 	echo "adult"
+else 
+	echo "oldage"
 fi
